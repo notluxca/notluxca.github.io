@@ -47,20 +47,20 @@ body {
 }
 
 .light {
-  --clr-bg: #fcfcfc;
-  --clr-bg-alt: #fff;
-  --clr-fg: #555;
-  --clr-fg-alt: #444;
-  --clr-primary: #2978b5;
-  --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  --clr-bg: #d8f2dc;
+  --clr-bg-alt: #63a593;
+  --clr-fg: #093c2d;
+  --clr-fg-alt: #3b6654;
+  --clr-primary: #093c2d;
+  --shadow: rgba(0, 95, 13, 0.2) 0px 7px 29px 0px;
 }
 
 .dark {
-  --clr-bg: #23283e;
-  --clr-bg-alt: #2a2f4c;
-  --clr-fg: #bdbddd;
-  --clr-fg-alt: #cdcdff;
-  --clr-primary: #90a0d9;
+  --clr-bg: #2A2A2A;;
+  --clr-bg-alt: #FF6F3D;
+  --clr-fg: #ecffef;
+  --clr-fg-alt: #cde9d1;
+  --clr-primary: #53d4b2;;
   --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
@@ -150,7 +150,7 @@ button {
 
 .link--nav {
   color: var(--clr-fg);
-  text-transform: lowercase;
+  text-transform: none;
   font-weight: 500;
 }
 
