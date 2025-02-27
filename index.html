@@ -10,6 +10,8 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
     <script
       src="https://kit.fontawesome.com/fa62c117c7.js"
       crossorigin="anonymous"
@@ -20,7 +22,7 @@
   <body class="light" id="top">
     <header class="header center">
       <h3>
-        <a href="https://www.linkedin.com/in/notluxca/" class="link"
+        <a href="https://www.linkedin.com/in/notluxca/" class="link" target="_blank"
           >My Linkedin</a
         >
       </h3>
@@ -40,6 +42,7 @@
 
         <button type="button" aria-label="toggle theme" class="btn btn--icon">
           <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+          <a href="Dark Mode"></a>
         </button>
 
         <button
@@ -61,7 +64,7 @@
           class="profile_picture"
         />
         <h1>Hi, I am <span class="about__name">Lucas Fernandes.</span></h1>
-        <h2 class="about__role">Game Programmer</h2>
+        <h2 class="about__role">I'm a Game Programmer</h2>
         <p class="about__desc">
           I am a game programmer specializing in Unity development, with experience in various stages of the game production cycle, 
           including programming, mechanics design, AI implementation, and asset integration. Passionate about creating engaging and 
@@ -70,24 +73,19 @@
         </p>
 
         <div class="about__contact center">
-          <a href="https://example.com">
-            <span class="btn btn--outline">Resume</span>
+          <a href="https://drive.google.com/drive/u/1/folders/1PR9rjng8L5uflGSiQfN_OmObCdZcLNL-" target="_blank">
+            <span class="btn btn--outline">My Resume</span>
           </a>
+          <span class="btn btn--outline">My Interactive Portifolio</span>
 
-          <a
-            href="https://github.com/rjshkhr"
-            aria-label="github"
-            class="link link--icon"
-          >
-            <i aria-hidden="true" class="fab fa-github"></i>
-          </a>
+          
 
-          <a
-            href="https://linkedin.com/in/rjshkhr"
+          <a class="btn btn--outline"
+            href="https://www.linkedin.com/in/notluxca/"
             aria-label="linkedin"
             class="link link--icon"
-          >
-            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          target="_blank">
+            <i aria-hidden="true" class="fab fa-linkedin"></i> My Linkedin
           </a>
         </div>
       </div>
@@ -99,16 +97,19 @@
         <div class="projects__grid">
 
           <div class="project">
-            <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWl1NWthMHg3cXkzMTNmaGlha21md3BqMmU1dXhteWNwM2xuM3F5ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RCBQSWiMPTQly/giphy.gif" class="projects__img">
-            <h3>Project Namorado da sabrina</h3>
+            <img src="https://media.discordapp.net/attachments/1207535956723372082/1344467526213439593/giphy.gif?ex=67c10475&is=67bfb2f5&hm=b016ef7492520114c8507924bb5b47b127ea08b366c2a83692c9825b69881d3e&=&width=540&height=380" class="projects__img">
+            <h3>Lava Rush</h3>
             <p class="project__description">
-              Nesse projeto eu exercito a minha habilidade de amar muito minha namorada, pela garota incrivel
-              honesta, sabia, Ui UX designer, e alem de tudo isso, linda, gostosa.
+              Lava Rush é um projeto independente Hyper Casual Mobile onde você deve chegar o mais longe possivel evitando cair na lava!
             </p>
+            
             <ul class="project__stack">
-              <li class="project__stack-item">SASS</li>
-              <li class="project__stack-item">TypeScript</li>
-              <li class="project__stack-item">React</li>
+              <li class="project__stack-item">Unity3D</li>
+              <li class="project__stack-item">C#</li>
+              <li class="project__stack-item">Solo Programmer</li>
+              <li class="project__stack-item">Game Design</li>
+              <li class="project__stack-item">Mobile Publishing</li>
+              
             </ul>
 
             <a
@@ -116,72 +117,57 @@
               aria-label="source code"
               class="link link--icon"
             >
-              <i aria-hidden="true" class="fab fa-github"></i>
-            </a>
-            <a
-              href="https://example.com"
-              aria-label="live preview"
-              class="link link--icon"
-            >
-              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+              <i class="fa-brands fa-linkedin"></i> Gameplay on Linkedin
             </a>
           </div>
 
           <div class="project">
-            <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWl1NWthMHg3cXkzMTNmaGlha21md3BqMmU1dXhteWNwM2xuM3F5ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RCBQSWiMPTQly/giphy.gif" class="projects__img">
-            <h3>Project Namorado da sabrina</h3>
+            <img src="https://media.discordapp.net/attachments/1207535956723372082/1344531584241631293/giphy1-ezgif.com-optimize.gif?ex=67c1401d&is=67bfee9d&hm=5315901aa0d8d43bfb8c06bf1fa34ed8ab48604cab93dd4a5bbe98c95af4d0e1&=&width=575&height=405" class="projects__img">
+            <h3>Faz teu Corre</h3>
             <p class="project__description">
-              Nesse projeto eu exercito a minha habilidade de amar muito minha namorada, pela garota incrivel
-              honesta, sabia, Ui UX designer, e alem de tudo isso, linda, gostosa.
+              Faz teu corre é um jogo educacional desenvolvido pelo meu studio Spacecats, o jogo retrata a vida de um
+              jovem suburbano carioca que deve tomar decisões eticas e morais para conseguir a maior pontuação possivel enquanto
+              lida com seu contexto social!
             </p>
             <ul class="project__stack">
-              <li class="project__stack-item">SASS</li>
-              <li class="project__stack-item">TypeScript</li>
-              <li class="project__stack-item">React</li>
+              <li class="project__stack-item">Unity 2D</li>
+              <li class="project__stack-item">C#</li>
+              <li class="project__stack-item">Solo Programmer</li>
+              <li class="project__stack-item">Game Direction</li>
+              <li class="project__stack-item">Spacecats Studio</li>
+              <li class="project__stack-item">Mobile</li>
             </ul>
 
-            <a
-              href="https://github.com"
-              aria-label="source code"
-              class="link link--icon"
-            >
-              <i aria-hidden="true" class="fab fa-github"></i>
-            </a>
+            
             <a
               href="https://example.com"
               aria-label="live preview"
               class="link link--icon"
             >
-              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i> Get on Itch.io
             </a>
           </div>
 
           <div class="project">
-            <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWl1NWthMHg3cXkzMTNmaGlha21md3BqMmU1dXhteWNwM2xuM3F5ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RCBQSWiMPTQly/giphy.gif" class="projects__img">
-            <h3>Project Namorado da sabrina</h3>
+            <img src="https://media.discordapp.net/attachments/919135192894046231/1344539573325140008/giphy2-ezgif.com-optimize.gif?ex=67c1478e&is=67bff60e&hm=c3985ea7b49b40e32f3f372d0f8df1fce44af4d9403aadad39379d2bd027b0b7&=&width=575&height=405" class="projects__img">
+            <h3>Lumina: The Awakening of folk legends</h3>
             <p class="project__description">
-              Nesse projeto eu exercito a minha habilidade de amar muito minha namorada, pela garota incrivel
-              honesta, sabia, Ui UX designer, e alem de tudo isso, linda, gostosa.
+              Lumina é um Combat Side Scroller 3d que se passa no Rio de Janeiro, um jogo com mecânicas de Luta distinta por diferentes estilos de combates e personagens!
             </p>
             <ul class="project__stack">
-              <li class="project__stack-item">SASS</li>
-              <li class="project__stack-item">TypeScript</li>
-              <li class="project__stack-item">React</li>
+              <li class="project__stack-item">Junior Developer</li>
+              <li class="project__stack-item">Enemy Behaviors</li>
+              <li class="project__stack-item">UI Programming</li>
+              <li class="project__stack-item">Camera Funcionalities</li>
+
             </ul>
 
-            <a
-              href="https://github.com"
-              aria-label="source code"
-              class="link link--icon"
-            >
-              <i aria-hidden="true" class="fab fa-github"></i>
-            </a>
             <a
               href="https://example.com"
               aria-label="live preview"
               class="link link--icon"
             >
-              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+              <i class="fa-brands fa-linkedin"></i> Gameplay on Linkedin
             </a>
           </div>
 
@@ -193,27 +179,24 @@
 
       <!-- Skills -->
       <section class="section skills" id="skills">
-        <h2 class="section__title">Skills</h2>
+        <h2 class="section__title">Interests & Studies</h2>
         <ul class="skills__list">
-          <li class="skills__list-item btn btn--plain">HTML</li>
-          <li class="skills__list-item btn btn--plain">CSS</li>
-          <li class="skills__list-item btn btn--plain">SCSS</li>
-          <li class="skills__list-item btn btn--plain">JavaScript</li>
-          <li class="skills__list-item btn btn--plain">TypeScript</li>
-          <li class="skills__list-item btn btn--plain">React</li>
-          <li class="skills__list-item btn btn--plain">Redux</li>
-          <li class="skills__list-item btn btn--plain">Git</li>
-          <li class="skills__list-item btn btn--plain">Material UI</li>
-          <li class="skills__list-item btn btn--plain">Jest</li>
-          <li class="skills__list-item btn btn--plain">Enzyme</li>
-          <li class="skills__list-item btn btn--plain">CI/CD</li>
+          <li class="skills__list-item btn btn--plain">C#</li>
+          <li class="skills__list-item btn btn--plain">Vscode</li>
+          <li class="skills__list-item btn btn--plain">Unity</li>
+          <li class="skills__list-item btn btn--plain">Enemy AI</li>
+          <li class="skills__list-item btn btn--plain">Game Design</li>
+          <li class="skills__list-item btn btn--plain">Mobile Development</li>
+          <li class="skills__list-item btn btn--plain">Agile Development</li>
+          <li class="skills__list-item btn btn--plain">SOLID</li>
+
         </ul>
       </section>
 
       <!-- Contact -->
       <section class="section contact center" id="contact">
         <h2 class="section__title">Contact</h2>
-        <a href="mailto:rjshekhar.official@gmail.com">
+        <a href="mailto:lucasfernandes.developer@gmail.com">
           <span class="btn btn--outline">Email me</span>
         </a>
       </section>
