@@ -25,11 +25,12 @@
 }
 
 .profile_picture {
+    
     width: 40%; /* A imagem terá 50% do tamanho do contêiner */
     height: auto; /* Mantém a proporção */
     display: block; /* Evita espaços indesejados abaixo da imagem */
     margin: 0 auto; /* Centraliza a imagem */
-    border-radius: 0.3em; /* Cantos arredondados */
+    border-radius: 0.8em; /* Cantos arredondados */
     padding-bottom: 0.5em;
 }
 
@@ -252,7 +253,7 @@ main {
 .section__title {
   text-align: center;
   margin-bottom: 1em;
-  text-transform: uppercase;
+  
 }
 
 .nav__list {
