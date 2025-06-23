@@ -1,225 +1,271 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Portfolio" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-      <!-- Google tag (gtag.js) -->  
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-FCWQ3SPP1N"></script>
-          <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
 
-            gtag('config', 'G-FCWQ3SPP1N');
-          </script>
-      <script
-      src="https://kit.fontawesome.com/fa62c117c7.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="styles.css" />
-    <title>Lucas Fernandes</title>
-  </head>
-  <body class="light" id="top">
-    <header class="header center">
-      <h3>
-        
-        <a href="https://www.linkedin.com/in/notluxca/" class="link" target="_blank"
-          > <i aria-hidden="true" class="fab fa-linkedin"></i> My Linkedin</a
-        >
-      </h3>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Portfolio" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FCWQ3SPP1N"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-      <nav class="nav center">
-        <ul class="nav__list center">
-          <li class="nav__list-item">
-            <a class="link link--nav" href="#projects">Projects</a>
-          </li>
-          <li class="nav__list-item">
-            <a class="link link--nav" href="#skills">Skills</a>
-          </li>
-          <li class="nav__list-item">
-            <a class="link link--nav" href="#contact">Contact</a>
-          </li>
-        </ul>
+    gtag('config', 'G-FCWQ3SPP1N');
+  </script>
+  <script src="https://kit.fontawesome.com/fa62c117c7.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css" />
+  <title>Lucas Fernandes</title>
+</head>
 
-        <button type="button" aria-label="toggle theme" class="btn btn--icon">
-          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
-          <a href="Dark Mode"></a>
-        </button>
-
-        <button
-          type="button"
-          aria-label="toggle navigation"
-          class="btn btn--icon nav__hamburger"
-        >
-          <i aria-hidden="true" class="fas fa-bars"></i>
-        </button>
-      </nav>
-    </header>
-
-    <main>
-      <!-- About -->
-      <div class="about center">
-        <img
-          src="./images/PFP.jpg"
-          alt="Lucas Fernandes"
-          class="profile_picture"
-        />
-        <h1>Hi, I am <span class="about__name">Lucas Fernandes.</span></h1>
-        <h2 class="about__role">Game Developer 🎮</h2>
-        <p class="about__desc">
-          I am a game programmer specializing in Unity development, with experience in various stages of the game production cycle, 
-          including programming, mechanics design, AI implementation, and asset integration. Passionate about creating engaging and 
-          innovative gameplay experiences, I focus on delivering well-optimized and immersive solutions. Always striving to refine 
-          my skills, I enjoy tackling challenges that push the boundaries of interactive entertainment.
-        </p>
-
-        <div class="about__contact center">
-          <a href="https://drive.google.com/drive/u/1/folders/1PR9rjng8L5uflGSiQfN_OmObCdZcLNL-" target="_blank">
-            
-            <span class="btn btn--outline"><i class="fa-solid fa-paperclip" style="padding-right: 0.4rem;"></i> My Resume</span>
-          </a>
-        </div>
-      </div>
-
-      <!-- Projects -->
-      <section id="projects" class="section projects">
-        <h2 class="section__title">Projects I worked on 👨‍💻</h2>
-
-        <div class="projects__grid">
-
-          <div class="project">
-            <img src="./images/LavaRush.gif" class="projects__img">
-            <h3>Lava Rush</h3>
-            <p class="project__description">
-              Lava Rush is an independent Hyper-Casual Mobile project where you must go as far as possible while avoiding falling into the lava!
-              Jump across tiles, avoid obstacles, and collect gems to unlock exciting new characters!
-            </p>
-            
-            <ul class="project__stack">
-              <li class="project__stack-item">Unity3D</li>
-              <li class="project__stack-item">C#</li>
-              <li class="project__stack-item">Solo Programmer</li>
-              <li class="project__stack-item">Game Design</li>
-              <li class="project__stack-item">Mobile Publishing</li>
-              
-            </ul>
-
-            <a
-              href="https://www.linkedin.com/feed/update/urn:li:activity:7287581672298995712/"
-              aria-label="source code"
-              class="btn btn--outline"
-              target="_blank"
-            >
-              <i class="fa-brands fa-linkedin"></i> Gameplay on Linkedin
-            </a>
-          </div>
-
-          <div class="project">
-            <img src="./images/FazTeuCorre gif.gif" class="projects__img">
-            <h3>Faz teu Corre</h3>
-            <p class="project__description">
-              "Faz teu corre" is an educational game developed by my studio, SpaceCats. The game portrays the life of a young suburban Carioca who must make ethical and moral decisions to achieve the highest possible score while dealing with his social context!
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">Unity 2D</li>
-              <li class="project__stack-item">C#</li>
-              <li class="project__stack-item">Solo Programmer</li>
-              <li class="project__stack-item">Game Direction</li>
-              <li class="project__stack-item">Spacecats Studio</li>
-              <li class="project__stack-item">Mobile</li>
-            </ul>
-
-            
-            <a
-              href="https://spacecats-studio.itch.io/fazteucorre"
-              aria-label="live preview"
-              class="btn btn--outline"
-              target="_blank"
-            >
-              <i aria-hidden="true" class="fa-brands fa-itch-io"></i> Get on Itch.io
-            </a>
-          </div>
-
-          <div class="project">
-            <img src="./images/luminaGif.gif" class="projects__img">
-            <h3>Lumina: The Uprise of folk legends</h3>
-            <p class="project__description">
-              Lumina is a Fast-paced Action Side-Scroller set in Rio de Janeiro, featuring unique fighting mechanics with different combat styles and characters!
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">Junior Developer</li>
-              <li class="project__stack-item">Enemy Behaviors</li>
-              <li class="project__stack-item">UI Programming</li>
-              <li class="project__stack-item">Camera Funcionalities</li>
-
-            </ul>
-
-            <a
-              href="https://www.linkedin.com/feed/update/urn:li:activity:7267567932975599618/"
-              aria-label="live preview"
-              class="btn btn--outline"
-              target="_blank"
-            >
-              <i class="fa-brands fa-linkedin"></i> Gameplay on Linkedin
-            </a>
-          </div>
-
-        </div>
-
-        
-
-      </section>
-
-      <!-- Skills -->
-      <section class="section skills" id="skills">
-        <h2 class="section__title">Interests & Studies</h2>
-        <ul class="skills__list">
-          <li class="skills__list-item btn btn--plain">C#</li>
-          <li class="skills__list-item btn btn--plain">Vscode</li>
-          <li class="skills__list-item btn btn--plain">Unity</li>
-          <li class="skills__list-item btn btn--plain">Enemy AI</li>
-          <li class="skills__list-item btn btn--plain">Game Design</li>
-          <li class="skills__list-item btn btn--plain">Mobile Development</li>
-          <li class="skills__list-item btn btn--plain">Agile Development</li>
-          <li class="skills__list-item btn btn--plain">SOLID</li>
-
-        </ul>
-      </section>
-
-      <!-- Contact -->
-      <section class="section contact center" id="contact">
-        <h2 class="section__title">Contact</h2>
-        <a href="mailto:lucasfernandes.developer@gmail.com">
-          <span class="btn btn--outline">Email me on: lucasfernandes.developer@gmail.com</span>
-        </a>
-      </section>
-    </main>
-
-    <footer class="footer">
-      <a
-        href="https://github.com/rjshkhr/cleanfolio-minimal"
-        class="link footer__link"
-      >
-        
+<body class="light" id="top">
+  <header class="header center">
+    <h3>
+      <a href="https://www.linkedin.com/in/notluxca/" class="link" target="_blank">
+        <i aria-hidden="true" class="fab fa-linkedin"></i> Linkedin
       </a>
-    </footer>
+      &nbsp;|&nbsp;
+      <a href="https://github.com/notluxca" class="link" target="_blank">
+        <i aria-hidden="true" class="fab fa-github"></i> GitHub
+      </a>
+      &nbsp;|&nbsp;
+      <a href="https://notluxca.itch.io/" class="link" target="_blank">
+        <i aria-hidden="true" class="fab fa-itch-io"></i> Itch.io
+      </a>
+    </h3>
 
-    <div class="scroll-container">
-      <div class="scroll-top">
-        <a aria-label="Scroll up" href="#top">
-          <i aria-hidden="true" class="fas fa-arrow-up"></i>
+    <nav class="nav center">
+      <ul class="nav__list center">
+        <li class="nav__list-item">
+          <a class="link link--nav" href="#projects">Projects</a>
+        </li>
+        <li class="nav__list-item">
+          <a class="link link--nav" href="#skills">Skills</a>
+        </li>
+        <li class="nav__list-item">
+          <a class="link link--nav" href="#contact">Contact</a>
+        </li>
+      </ul>
+
+      <button type="button" aria-label="toggle theme" class="btn btn--icon">
+        <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        <a href="Dark Mode"></a>
+      </button>
+
+      <button type="button" aria-label="toggle navigation" class="btn btn--icon nav__hamburger">
+        <i aria-hidden="true" class="fas fa-bars"></i>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- About -->
+    <div class="about center">
+      <img src="./images/PFP.jpg" alt="Lucas Fernandes" class="profile_picture" />
+      <h1>Hi, I am <span class="about__name">Lucas Fernandes.</span></h1>
+      <h2 class="about__role">Game Developer 🎮</h2>
+      <p class="about__desc">
+        I am a game programmer specializing in Unity development, with experience in various stages of the game
+        production cycle,
+        including programming, mechanics design, AI implementation, and asset integration. Passionate about creating
+        engaging and
+        innovative gameplay experiences, I focus on delivering well-optimized and immersive solutions. Always striving
+        to refine
+        my skills, I enjoy tackling challenges that push the boundaries of interactive entertainment.
+      </p>
+
+      <div class="about__contact center">
+        <a href="https://drive.google.com/drive/u/1/folders/1PR9rjng8L5uflGSiQfN_OmObCdZcLNL-" target="_blank">
+
+          <span class="btn btn--outline"><i class="fa-solid fa-paperclip" style="padding-right: 0.4rem;"></i> My
+            Resume</span>
         </a>
       </div>
     </div>
 
-    <script src="./script.js"></script>
-  </body>
+    <!-- Projects -->
+    <section id="projects" class="section projects">
+      <h2 class="section__title">Professional projects I programmed on 👨‍💻</h2>
+
+      <div class="projects__grid">
+
+        <div class="project">
+          <img src="./images/LavaRush.gif" class="projects__img">
+          <h3>Lava Rush</h3>
+          <p class="project__description">
+            Lava Rush is an independent Hyper-Casual Mobile project where you must go as far as possible while avoiding
+            falling into the lava!
+            Jump across tiles, avoid obstacles, and collect gems to unlock exciting new characters!
+          </p>
+
+          <ul class="project__stack">
+            <li class="project__stack-item">Unity3D</li>
+            <li class="project__stack-item">C#</li>
+            <li class="project__stack-item">Solo Programmer</li>
+            <li class="project__stack-item">Game Design</li>
+            <li class="project__stack-item">Mobile Publishing</li>
+
+          </ul>
+
+          <a href="https://www.linkedin.com/feed/update/urn:li:activity:7287581672298995712/" aria-label="source code"
+            class="btn btn--outline" target="_blank">
+            <i class="fa-brands fa-linkedin"></i> Gameplay on Linkedin
+          </a>
+        </div>
+
+        <div class="project">
+          <img src="./images/FazTeuCorre gif.gif" class="projects__img">
+          <h3>Faz teu Corre</h3>
+          <p class="project__description">
+            "Faz teu corre" is an educational game developed by my studio, SpaceCats. The game portrays the life of a
+            young suburban Carioca who must make ethical and moral decisions to achieve the highest possible score while
+            dealing with his social context!
+          </p>
+          <ul class="project__stack">
+            <li class="project__stack-item">Unity 2D</li>
+            <li class="project__stack-item">C#</li>
+            <li class="project__stack-item">Solo Programmer</li>
+            <li class="project__stack-item">Game Direction</li>
+            <li class="project__stack-item">Spacecats Studio</li>
+            <li class="project__stack-item">Mobile</li>
+          </ul>
+
+
+          <a href="https://spacecats-studio.itch.io/fazteucorre" aria-label="live preview" class="btn btn--outline"
+            target="_blank">
+            <i aria-hidden="true" class="fa-brands fa-itch-io"></i> Get on Itch.io
+          </a>
+        </div>
+
+        <div class="project">
+          <img src="./images/luminaGif.gif" class="projects__img">
+          <h3>Lumina: The Uprise of folk legends</h3>
+          <p class="project__description">
+            Lumina is a Fast-paced Action Side-Scroller set in Rio de Janeiro, featuring unique fighting mechanics with
+            different combat styles and characters!
+          </p>
+          <ul class="project__stack">
+            <li class="project__stack-item">Junior Developer</li>
+            <li class="project__stack-item">Enemy Behaviors</li>
+            <li class="project__stack-item">UI Programming</li>
+            <li class="project__stack-item">Camera Funcionalities</li>
+
+          </ul>
+
+          <a href="https://www.linkedin.com/feed/update/urn:li:activity:7267567932975599618/" aria-label="live preview"
+            class="btn btn--outline" target="_blank">
+            <i class="fa-brands fa-linkedin"></i> Gameplay on Linkedin
+          </a>
+        </div>
+
+      </div>
+
+
+
+    </section>
+
+    <section id="projects" class="section projects">
+      <h2 class="section__title"> Personal Projects</h2>
+
+      <div class="projects__grid">
+
+        <div class="project">
+          <img src="./images/Open Source SpaceShooter 2D.png" class="projects__img">
+          <h3>Open Space Shooter</h3>
+          <p class="project__description">
+            This is a template project I created to help beginners learn the basics of Unity3D and C# programming.
+            It features a simple space shooter game where you can control a spaceship, shoot enemies, and collect
+            power-ups.
+            The project is designed to be easy to understand and modify, making it a great starting point
+          </p>
+
+          <ul class="project__stack">
+            <li class="project__stack-item">Unity2D</li>
+            <li class="project__stack-item">C#</li>
+            <li class="project__stack-item">Solo Programmer</li>
+            <li class="project__stack-item">Game Design</li>
+          </ul>
+
+          <a href="https://github.com/notluxca/Unity2D-Open-SpaceShooter" aria-label="source code"
+            class="btn btn--outline" target="_blank">
+            <i class="fa-brands fa-github"></i> Code on GitHub
+          </a>
+        </div>
+
+        <div class="project">
+          <img src="./images/EdenProtocol.png" class="projects__img">
+          <h3>Eden Protocol</h3>
+          <p class="project__description">
+            A lone astronaut protects a vital tree inside a dome from toxic, pollution-born creatures in a devastated
+            Earth.
+            Retro action blends with a strong environmental message, as hope grows under protection.
+          </p>
+          <ul class="project__stack">
+            <li class="project__stack-item">Unity 2D</li>
+            <li class="project__stack-item">C#</li>
+            <li class="project__stack-item">Solo Programmer</li>
+            <li class="project__stack-item">Game Direction</li>
+            <li class="project__stack-item">Mobile</li>
+          </ul>
+
+
+          <a href="https://notluxca.itch.io/jetpac-reimagined" aria-label="live preview" class="btn btn--outline"
+            target="_blank">
+            <i aria-hidden="true" class="fa-brands fa-itch-io"></i> Play on Itch.io
+          </a>
+        </div>
+
+      </div>
+
+
+
+    </section>
+
+    <!-- Skills -->
+    <section class="section skills" id="skills">
+      <h2 class="section__title">Interests & Studies</h2>
+      <ul class="skills__list">
+        <li class="skills__list-item btn btn--plain">C#</li>
+        <li class="skills__list-item btn btn--plain">Vscode</li>
+        <li class="skills__list-item btn btn--plain">Unity</li>
+        <li class="skills__list-item btn btn--plain">Enemy AI</li>
+        <li class="skills__list-item btn btn--plain">Game Design</li>
+        <li class="skills__list-item btn btn--plain">Mobile Development</li>
+        <li class="skills__list-item btn btn--plain">Agile Development</li>
+        <li class="skills__list-item btn btn--plain">SOLID</li>
+
+      </ul>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact center" id="contact">
+      <h2 class="section__title">Contact</h2>
+      <a href="mailto:lucasfernandes.developer@gmail.com">
+        <span class="btn btn--outline">Email me on: lucasfernandes.developer@gmail.com</span>
+      </a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a href="https://github.com/rjshkhr/cleanfolio-minimal" class="link footer__link">
+
+    </a>
+  </footer>
+
+  <div class="scroll-container">
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+
 </html>
